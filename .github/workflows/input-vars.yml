@@ -20,10 +20,10 @@ on:
         type: boolean
         description: vamos tomar cafe
       ambiente:
-        type: envoironment
+        type: environment
       nuvem:
         type: choice
-        decription: Escolha a nuvem onde pretende trabalhar
+        description: Escolha a nuvem onde pretende trabalhar
         options:
           - aws
           - azure
