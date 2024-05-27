@@ -13,6 +13,14 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
   inputs:
+    mensagem:
+      type: string
+      required: true
+    cafe:
+      type: boolean
+      description: vamos tomar cafe
+    ambiente:
+      type: envoironment
     nuvem:
       type: choice
       decription: Escolha a nuvem onde pretende trabalhar
