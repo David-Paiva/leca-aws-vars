@@ -6,10 +6,11 @@ on:
     secrets:
       PAT:
         required: true
+        
 jobs:
   aws-create-vm:
     runs-on: ubuntu-latest
-    environment : Teste
+    environment : PAT
     steps:
     - uses: actions/labeler@v4
       with:
